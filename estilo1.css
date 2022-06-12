@@ -15,6 +15,7 @@ header{
     margin: 1%;
     width: 98%;
     padding-top: 0px;
+    transition: background-image 1s linear;
 }
 
 body.dark header{
@@ -65,7 +66,7 @@ body.dark header{
     border-radius: 100%;
     margin-left: 5%;
     transform: translateX(0%);
-    transition: transform 0.2s linear;
+    transition: transform 1s linear;
 }
 
 .checkbox:checked + .cilindro .circulo{
@@ -344,13 +345,23 @@ footer{
         margin-bottom: 2%;
     }
 
-    .Titulo .botao{
-        width: 3%;
+    .cilindro{
+        width: 4%;
+        margin-top: 1%;
+        height: 10%;
+        right: 2%;
+        top: 2%;
+        border: #045256 solid 2px;
+        border-radius: 25px;
     }
     
-    .botao p{
-        margin-left: 1px;
+    .cilindro .circulo{
+        width: 30%;
+        height: 70%;
+        border-radius: 100%;
+        margin-left: 5%;
     }
+    
     .Abertura p{
         font-size: 200%;
         width: 80%;
